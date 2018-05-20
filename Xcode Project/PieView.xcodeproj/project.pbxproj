@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5455297220B15D94003C4D73 /* PieProgressLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5455297120B15D94003C4D73 /* PieProgressLayer.swift */; };
+		547C304220B0E792002A4DD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C304120B0E792002A4DD4 /* AppDelegate.swift */; };
+		547C304420B0E792002A4DD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C304320B0E792002A4DD4 /* ViewController.swift */; };
+		547C304720B0E792002A4DD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547C304520B0E792002A4DD4 /* Main.storyboard */; };
+		547C304920B0E794002A4DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547C304820B0E794002A4DD4 /* Assets.xcassets */; };
+		547C304C20B0E794002A4DD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547C304A20B0E794002A4DD4 /* LaunchScreen.storyboard */; };
+		547C305420B0E7AA002A4DD4 /* PieProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C305320B0E7AA002A4DD4 /* PieProgressView.swift */; };
+		547C305620B0E7C8002A4DD4 /* CGFloat+Radians.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C305520B0E7C8002A4DD4 /* CGFloat+Radians.swift */; };
+		54A61EB620B1D45000C40E6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A61EB520B1D45000C40E6D /* AppDelegate.swift */; };
+		54A61EB820B1D45000C40E6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A61EB720B1D45000C40E6D /* ViewController.swift */; };
+		54A61EBA20B1D45000C40E6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A61EB920B1D45000C40E6D /* Assets.xcassets */; };
+		54A61EBD20B1D45000C40E6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A61EBB20B1D45000C40E6D /* Main.storyboard */; };
+		54A61EC420B1D4D200C40E6D /* PieProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C305320B0E7AA002A4DD4 /* PieProgressView.swift */; };
+		54A61EC520B1D4D200C40E6D /* PieProgressLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5455297120B15D94003C4D73 /* PieProgressLayer.swift */; };
+		54A61EC620B1D4D200C40E6D /* CGFloat+Radians.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547C305520B0E7C8002A4DD4 /* CGFloat+Radians.swift */; };
+		54A61EC820B1D75700C40E6D /* NSBezierPath+CGPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A61EC720B1D75700C40E6D /* NSBezierPath+CGPath.swift */; };
+		54A61EC920B1D75700C40E6D /* NSBezierPath+CGPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A61EC720B1D75700C40E6D /* NSBezierPath+CGPath.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5455297120B15D94003C4D73 /* PieProgressLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieProgressLayer.swift; sourceTree = "<group>"; };
+		547C303E20B0E792002A4DD4 /* PieProgressView-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PieProgressView-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		547C304120B0E792002A4DD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		547C304320B0E792002A4DD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		547C304620B0E792002A4DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		547C304820B0E794002A4DD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		547C304B20B0E794002A4DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		547C304D20B0E794002A4DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547C305320B0E7AA002A4DD4 /* PieProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieProgressView.swift; sourceTree = "<group>"; };
+		547C305520B0E7C8002A4DD4 /* CGFloat+Radians.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Radians.swift"; sourceTree = "<group>"; };
+		54A61EB320B1D45000C40E6D /* PieProgressView macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PieProgressView macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A61EB520B1D45000C40E6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54A61EB720B1D45000C40E6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54A61EB920B1D45000C40E6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54A61EBC20B1D45000C40E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54A61EBE20B1D45000C40E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A61EBF20B1D45000C40E6D /* PieProgressView_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PieProgressView_macOS.entitlements; sourceTree = "<group>"; };
+		54A61EC720B1D75700C40E6D /* NSBezierPath+CGPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSBezierPath+CGPath.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		547C303B20B0E792002A4DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A61EB020B1D45000C40E6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		547C303520B0E792002A4DD4 = {
+			isa = PBXGroup;
+			children = (
+				54A61EC320B1D46D00C40E6D /* PieProgressView */,
+				547C304020B0E792002A4DD4 /* PieProgressView iOS */,
+				54A61EB420B1D45000C40E6D /* PieProgressView macOS */,
+				547C303F20B0E792002A4DD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		547C303F20B0E792002A4DD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				547C303E20B0E792002A4DD4 /* PieProgressView-iOS.app */,
+				54A61EB320B1D45000C40E6D /* PieProgressView macOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		547C304020B0E792002A4DD4 /* PieProgressView iOS */ = {
+			isa = PBXGroup;
+			children = (
+				547C304120B0E792002A4DD4 /* AppDelegate.swift */,
+				547C304320B0E792002A4DD4 /* ViewController.swift */,
+				547C304520B0E792002A4DD4 /* Main.storyboard */,
+				547C304820B0E794002A4DD4 /* Assets.xcassets */,
+				547C304A20B0E794002A4DD4 /* LaunchScreen.storyboard */,
+				547C304D20B0E794002A4DD4 /* Info.plist */,
+			);
+			path = "PieProgressView iOS";
+			sourceTree = "<group>";
+		};
+		54A61EB420B1D45000C40E6D /* PieProgressView macOS */ = {
+			isa = PBXGroup;
+			children = (
+				54A61EB520B1D45000C40E6D /* AppDelegate.swift */,
+				54A61EB720B1D45000C40E6D /* ViewController.swift */,
+				54A61EB920B1D45000C40E6D /* Assets.xcassets */,
+				54A61EBB20B1D45000C40E6D /* Main.storyboard */,
+				54A61EBE20B1D45000C40E6D /* Info.plist */,
+				54A61EBF20B1D45000C40E6D /* PieProgressView_macOS.entitlements */,
+			);
+			path = "PieProgressView macOS";
+			sourceTree = "<group>";
+		};
+		54A61EC320B1D46D00C40E6D /* PieProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				547C305320B0E7AA002A4DD4 /* PieProgressView.swift */,
+				5455297120B15D94003C4D73 /* PieProgressLayer.swift */,
+				547C305520B0E7C8002A4DD4 /* CGFloat+Radians.swift */,
+				54A61EC720B1D75700C40E6D /* NSBezierPath+CGPath.swift */,
+			);
+			path = PieProgressView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		547C303D20B0E792002A4DD4 /* PieProgressView-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547C305020B0E794002A4DD4 /* Build configuration list for PBXNativeTarget "PieProgressView-iOS" */;
+			buildPhases = (
+				547C303A20B0E792002A4DD4 /* Sources */,
+				547C303B20B0E792002A4DD4 /* Frameworks */,
+				547C303C20B0E792002A4DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PieProgressView-iOS";
+			productName = PieView;
+			productReference = 547C303E20B0E792002A4DD4 /* PieProgressView-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54A61EB220B1D45000C40E6D /* PieProgressView macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A61EC020B1D45000C40E6D /* Build configuration list for PBXNativeTarget "PieProgressView macOS" */;
+			buildPhases = (
+				54A61EAF20B1D45000C40E6D /* Sources */,
+				54A61EB020B1D45000C40E6D /* Frameworks */,
+				54A61EB120B1D45000C40E6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PieProgressView macOS";
+			productName = "PieProgressView macOS";
+			productReference = 54A61EB320B1D45000C40E6D /* PieProgressView macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		547C303620B0E792002A4DD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "152percent Ltd";
+				TargetAttributes = {
+					547C303D20B0E792002A4DD4 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					54A61EB220B1D45000C40E6D = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 547C303920B0E792002A4DD4 /* Build configuration list for PBXProject "PieView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 547C303520B0E792002A4DD4;
+			productRefGroup = 547C303F20B0E792002A4DD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				547C303D20B0E792002A4DD4 /* PieProgressView-iOS */,
+				54A61EB220B1D45000C40E6D /* PieProgressView macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		547C303C20B0E792002A4DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547C304C20B0E794002A4DD4 /* LaunchScreen.storyboard in Resources */,
+				547C304920B0E794002A4DD4 /* Assets.xcassets in Resources */,
+				547C304720B0E792002A4DD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A61EB120B1D45000C40E6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A61EBA20B1D45000C40E6D /* Assets.xcassets in Resources */,
+				54A61EBD20B1D45000C40E6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		547C303A20B0E792002A4DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547C304420B0E792002A4DD4 /* ViewController.swift in Sources */,
+				547C304220B0E792002A4DD4 /* AppDelegate.swift in Sources */,
+				547C305620B0E7C8002A4DD4 /* CGFloat+Radians.swift in Sources */,
+				54A61EC820B1D75700C40E6D /* NSBezierPath+CGPath.swift in Sources */,
+				5455297220B15D94003C4D73 /* PieProgressLayer.swift in Sources */,
+				547C305420B0E7AA002A4DD4 /* PieProgressView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A61EAF20B1D45000C40E6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A61EC420B1D4D200C40E6D /* PieProgressView.swift in Sources */,
+				54A61EC520B1D4D200C40E6D /* PieProgressLayer.swift in Sources */,
+				54A61EB820B1D45000C40E6D /* ViewController.swift in Sources */,
+				54A61EC920B1D75700C40E6D /* NSBezierPath+CGPath.swift in Sources */,
+				54A61EB620B1D45000C40E6D /* AppDelegate.swift in Sources */,
+				54A61EC620B1D4D200C40E6D /* CGFloat+Radians.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		547C304520B0E792002A4DD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547C304620B0E792002A4DD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		547C304A20B0E794002A4DD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547C304B20B0E794002A4DD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		54A61EBB20B1D45000C40E6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54A61EBC20B1D45000C40E6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		547C304E20B0E794002A4DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		547C304F20B0E794002A4DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		547C305120B0E794002A4DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2CWYL9AN8;
+				INFOPLIST_FILE = "PieProgressView iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.152percent.PieView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		547C305220B0E794002A4DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2CWYL9AN8;
+				INFOPLIST_FILE = "PieProgressView iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.152percent.PieView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54A61EC120B1D45000C40E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "PieProgressView macOS/PieProgressView_macOS.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V2CWYL9AN8;
+				INFOPLIST_FILE = "PieProgressView macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.152percent.PieProgressView-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		54A61EC220B1D45000C40E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "PieProgressView macOS/PieProgressView_macOS.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V2CWYL9AN8;
+				INFOPLIST_FILE = "PieProgressView macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.152percent.PieProgressView-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		547C303920B0E792002A4DD4 /* Build configuration list for PBXProject "PieView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547C304E20B0E794002A4DD4 /* Debug */,
+				547C304F20B0E794002A4DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547C305020B0E794002A4DD4 /* Build configuration list for PBXNativeTarget "PieProgressView-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547C305120B0E794002A4DD4 /* Debug */,
+				547C305220B0E794002A4DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A61EC020B1D45000C40E6D /* Build configuration list for PBXNativeTarget "PieProgressView macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A61EC120B1D45000C40E6D /* Debug */,
+				54A61EC220B1D45000C40E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 547C303620B0E792002A4DD4 /* Project object */;
+}
